@@ -8,7 +8,7 @@
 			});
 		
 		$("#but_form").click(function(){
-			$("#doi").show().html("<form>Numele:<input type='text' name='n'><br>Email:<input type='text' name='e'><br>Comentariu:<textarea cols='20' rows='5' id='test1'></textarea><br><input type='reset'></form>");
+			$("#doi").show(1500).html("<form>Numele:<input type='text' name='n'><br>Email:<input type='text' name='e'><br>Comentariu:<textarea cols='20' rows='5' id='test1'></textarea><br><input type='reset'></form>");
 			});
 		$("#but_sel").click(function(){
 			$("#p2").append(" <b>" + $("#test1").val()+"</b>");
@@ -36,10 +36,11 @@ akjsd hasjkd haslkjd hasld h</p>
 akjsd hasjkd haslkjd hasld h</b>dnsa das disa d oasoi das daois disad</p>
 
 <button id="adauga"> Adauga</button>
-<button id="but_form"> Formualar</button>
+<button id="but_form"> Formular</button>
 <button id="but_sel"> Selecteaza</button>
 <hr>
-<div id="doi" style="width:auto"> 
+<div id="doi" style="width:auto"> <form>Numele:<input type='text' name='n'><br>Email:<input type='text' name='e'><br>Comentariu:<textarea cols='20' rows='5' id='test1'></textarea><br><input type='reset'></form>
+</div>
 </div>
 
 <hr>
