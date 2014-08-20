@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/cssx" href="css.css"/>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css"/>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+<script>
+	$(document).on("pagecreate","#paginaunu",function(){
+	$("p").on("click",function(){
+		$(this).hide();
+	});
+	});
+</script>
+
+</head>
+<body>
+
+<div data-role="page" id="pagina_unu">
+ <div data-role="header">
+    <h1>Titlu</h1>
+	
+  </div>
+  
+  <div data-role="main"  class="ui-content">
+ 
+		<a href="#pagina_doi" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-home"></a>
+		
+		<a href="#panou1" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-phone"></a>
+		
+		<a href="#pagina_doi" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-comment"></a>
+		
+		<a href="#pagina_doi" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-gear"></a>
+		
+		<a href="#pagina_doi" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-search"></a>
+		<hr>
+  
+  <div class="ui-grid-c">
+	
+	<p>Prima coloana trebuie umpluta cu tot felul de informatii stupide. Ideea este sa fii capabil sa scrii cat mai mult si cat mai bine deoarece informatiile de multe ori sunt extrem de pretioase.</p>
+	
+	<div class="ui-block-c">
+  <div data-role="collapsibleset">
+  </div>
+  </div>
+    </div>
+	  <table data-role="table" class="ui-responsive"> 
+	<thead>
+	<tr>
+		<th> Prima coloana</th>
+		<th> Cea de-a doua coloana</th>
+	</tr>
+	</thead>
+	<tbody>
+
+	<tr>
+		<td>Informatii peste informatii.</td>
+		<td>Din nou informatii peste informatii.</td>
+	</tr>
+	<tr>
+		<td>Din prima coloana.</td>
+		<td>Din coloana cu numarul doi.</td>
+	</tr>
+	</tbody>
+  </table>
+		
+	  </div>
+	  
+	  <hr>
+
+  <div data-role="panel" id="panou1"  data-position="left" data-dismissible="true" data-swipe-close="true" data-display="push">
+	<div id="formular">
+			<form action="#" method="post" name="form" onsubmit="return ValidareForm(this);">
+			<h3>Nume:</h3><input type="text" name="nume"/><br>
+			<h3>Prenume:</h3><input type="text" name="email"/><br>
+			<h3>Comentarii:</h3><textarea name="mesaj" cols="100" rows="10"> </textarea> <br>
+			<hr width="25%" align="left">
+			<input type="submit" name="submit"/>
+			</form>
+		</div>	
+  </div>
+ 
+  
+  
+  
+   <div data-role="footer">
+		<h4> sinu &copy; 2014 </h4>
+	</div>
+</div>
+	<div data-role="page" id="pagina_doi">
+  <div data-role="header">
+  
+  <a href="#pagina_unu" class="ui-btn ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-right" data-rel="back"></a>
+    <h1>Titlu pentru pagina doi</h1>
+	
+  </div>
+  
+  <div data-role="main"  class="ui-content">
+ 
+		
+		<a href="#" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-home"></a>
+		
+		<a href="#panou1" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-phone"></a>
+		
+		<a href="#" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-comment"></a>
+		
+		<a href="#" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-gear"></a>
+		
+		<a href="#" class="ui-btn ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-search"></a>
+		<hr>
+  
+  <div class="ui-grid-c">
+	
+	<p>Prima coloana trebuie umpluta cu tot felul de informatii stupide. Ideea este sa fii capabil sa scrii cat mai mult si cat mai bine deoarece informatiile de multe ori sunt extrem de pretioase.</p>
+	
+	<div class="ui-block-c">
+  <div data-role="collapsibleset">
+  </div>
+  </div>
+    </div>
+	  <table data-role="table" class="ui-responsive"> 
+	<thead>
+	<tr>
+		<th> Prima coloana</th>
+		<th> Cea de-a doua coloana</th>
+	</tr>
+	</thead>
+	<tbody>
+
+	<tr>
+		<td>Informatii peste informatii.</td>
+		<td>Din nou informatii peste informatii.</td>
+	</tr>
+	<tr>
+		<td>Din prima coloana.</td>
+		<td>Din coloana cu numarul doi.</td>
+	</tr>
+	</tbody>
+  </table>
+		
+	 
+	  
+	  <hr>
+
+  <div data-role="panel" id="panou1"  data-position="left" data-dismissible="true" data-swipe-close="true" data-display="push">
+	<div id="formular">
+			<form action="#" method="post" name="form" onsubmit="return ValidareForm(this);">
+			<h3>Nume:</h3><input type="text" name="nume"/><br>
+			<h3>Prenume:</h3><input type="text" name="email"/><br>
+			<h3>Comentarii:</h3><textarea name="mesaj" cols="100" rows="10"> </textarea> <br>
+			<hr width="25%" align="left">
+			<input type="submit" name="submit"/>
+			</form>
+		</div>	
+  </div>
+ 
+  
+  
+  
+   <div data-role="footer">
+		<h4> sinu &copy; 2014 </h4>
+	</div>
+</div>
+ </div>
+
+</body>
+</html>
